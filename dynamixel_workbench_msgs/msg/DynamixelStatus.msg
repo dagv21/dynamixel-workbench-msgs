@@ -1,0 +1,12 @@
+Header header
+string name
+int32  id
+int32  present_position
+int32  present_velocity
+int16  present_load
+uint16 present_current
+uint8  present_voltage
+uint8  present_temperature
+uint8  torque_enable
+uint8  moving
+uint8  led

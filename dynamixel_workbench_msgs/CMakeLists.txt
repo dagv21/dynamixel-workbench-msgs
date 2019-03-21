@@ -37,6 +37,8 @@ add_message_files(
   XMExt.msg
   DynamixelState.msg
   DynamixelStateList.msg
+  DynamixelStatus.msg
+  DynamixelStatusList.msg
   DynamixelInfo.msg
   DynamixelLoadInfo.msg
 )
@@ -45,6 +47,8 @@ add_service_files(
   FILES
   GetDynamixelInfo.srv
   DynamixelCommand.srv
+  TorqueEnable.srv
+  JointCommand.srv
 )
 
 generate_messages(
